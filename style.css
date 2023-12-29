@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+    font-weight: 900;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(149, 184, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 2vh;
+}
+
+.box h1 {
+    color: rgb(82, 82, 82);
+}
+
+.box input {
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 2px rgb(184, 215, 248);
+}
+
+.box button {
+    background-color: rgb(149, 184, 209);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    /* border: solid 2px rgb(184, 215, 248); */
+    outline: none;
+    border: none;
+    height: 5vh;
+    width: 5vw;
+}
+
+.box button:active {
+    scale: 0.8;
+    border: solid 5px rgb(184, 215, 248);
+}
+
+.last_message {
+    scale: 2;
+}
